@@ -39,8 +39,9 @@ h3 {
 }
 
 section {
-  width: 400px;
+  width: 360px;
   margin: 64px auto 0;
+  text-align: center;
 }
 
 section p {
