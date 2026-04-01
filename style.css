@@ -22,7 +22,7 @@ p{ margin: 0;
 }
 
 main {
-  padding: 64px 0;
+  padding: 64px 16px;
 }
 
 h2 {
@@ -42,6 +42,12 @@ section {
   width: 360px;
   margin: 64px auto 0;
   text-align: center;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 section p {
