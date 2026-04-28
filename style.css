@@ -21,6 +21,42 @@ h1 { margin: 16px 0 0;
 p{ margin: 0;
 }
 
+.site-header {
+  background: #f7f7fb;
+  padding: 40px 20px;
+}
+
+.header-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.site-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.learning {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.learning h2 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.learning-list {
+  padding-left: 20px;
+}
+
+.learning-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  list-style: none;
+}
+
 main {
   padding: 64px 16px;
 }
