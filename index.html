@@ -5,12 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>かなのポートフォリオサイト</title>
-  <link rel="icon" href="favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="icon.png" alt="アイコン" width="128" height="128">
+    <img src="icon2.png" alt="アイコン" width="128" height="128">
     <h1>かな</h1>
     <p>HTML/CSSコーディングを学習中</p>
       <div class="header-inner">
@@ -30,34 +31,112 @@
     
       </div>
   </header>
-
 <main>
-  <h2>Practice</h2>
-  <section>
-    <a href="https://kasekk-debug.github.io/Baby-Care-Essentials/" target="_blank"><img src="babymom.jpg" alt="アイコン" width="360" height="250"></a>
-    <h3>Baby-Care-Essentials（LP）</h3>
-    <p>HTML / CSS / AOS / Bootstrap Icons <br>
-      育児中のママ向け架空LP <br>
-      ストーリー構造を意識して設計
-      </p>
-  </section>
-  <section>
-    <a href=" https://kasekk-debug.github.io/PHOTO-BOOK-Practice/" target="_blank"><img src="detail.jpg" alt="アイコン" width="360" height="250"></a>
-    <h3>PHOTO-BOOK-Practice</h3>
-      <p>HTML / CSS <br>
-        制作時間：5時間 <br>
-      <a href="https://code-jump.com/" target="_blank">CodeJump</a>のデザインをもとに、HTML/CSSで模写コーディングを行いました。<br>
-レスポンシブ対応、余白調整を練習しました。</p>
-  </section>
+  
+  <section class="practice">
+    <h2>Practice</h2>
+
+
+    <ul class="practice-ol">
+      <li>
+        <a href="https://kasekk-debug.github.io/Baby-Care-Essentials/" target="_blank">
+          <img src="babymom.jpg" alt="Baby-Care-Essentialsのサムネイル">
+          <h3>Baby-Care-Essentials</h3>
+        </a>
+        <p>HTML / CSS / AOS / Bootstrap Icons</p>
+        <p>育児中の親向け架空サービスLPです。赤ちゃんが泣く前に知らせてくれる架空の商品をテーマに、悩みの提示から機能紹介、利用者の声、CTAまでの流れを意識して制作しました。<br>
+          レスポンシブ対応とAOSによるスクロールアニメーションも実装しています。
+        </p>
+      </li>
+    
+      <li>
+        <a href="https://kasekk-debug.github.io/Recipe-Diary-Practice/" target="_blank">
+          <img src="detail2.jpg" alt="Recipe-Diary-Practiceのサムネイル">
+          <h3>Recipe-Diary-Practice</h3>
+        </a>
+        <p>HTML / CSS<br>
+          <a href="https://code-jump.com/" target="_blank">CodeJump様</a>のデザインを元に模写コーディング。<br>
+          Flexboxを使用したレイアウト構築と、レスポンシブ時の配置変更を意識して実装しました。</p>
+      </li>
+
+      <li>
+        <a href="https://kasekk-debug.github.io/PHOTO-BOOK-Practice/" target="_blank">
+          <img src="detail.jpg" alt="PHOTO BOOK Practiceのサムネイル">
+          <h3>PHOTO BOOK Practice</h3>
+        </a>
+        <p>HTML / CSS<br>
+          <a href="https://code-jump.com/" target="_blank">CodeJump様</a>のデザインを元に模写コーディング。<br>
+          レイアウトだけでなく、ユーザーが操作しやすいUIを意識し、リンクをボタン化するなど視認性・操作性の改善を行いました。<br> 
+          また、余白や配置の調整により、情報が整理されて見やすい構成を意識しています。</p>
+      </li>
+
+      <li>
+        <a href="https://kasekk-debug.github.io/Profile-Practice/" target="_blank">
+          <img src="detail3.jpg" alt="Profile-Practice"のサムネイル">
+          <h3>Profile-Practice</h3>
+        </a>
+        <p>HTML / CSS<br>
+          <a href="https://code-jump.com/" target="_blank">CodeJump様</a>のデザインを元に模写コーディング。<br>
+          初めての模写で、模写は2回行いました。1度目はヒントを参考に作成し、2回目はデザインだけを参考にチャレンジしました。<br>
+          掲載しているものは2回目の模写になります。<br>
+           シンプルな構成の中で余白や文字の読みやすさを意識し、基本的なレイアウトを再現しました。</p>
+      </li>
+    </ul>  
+    </section>
+
+
+    <section class="about">
+      <h2>About</h2>
+    
+      <div class="about-box" data-aos="fade-up">
+        <div class="about-icon">
+          <i class="bi bi-person"></i>
+        </div>
+    
+        <div class="about-text">
+          <p class="about-lead">
+            2026年4月よりHTML/CSSを中心に学習を進めており、LPの模写やオリジナルサイト制作を通して、レスポンシブ対応やレイアウト構築のスキル習得に取り組んでおります。
+            </p>
+
+            <p>
+              以前は、看護師として約5年病院で勤務しておりました。現在は保健師としてヘルスケアITベンチャーで約7年間、支社立ち上げフェーズから業務に携わっています。
+            </p>
+        
+            <p>
+              業務を通してエンジニアの方々と関わる中で、Webアプリが形になっていく過程に魅力を感じ、自らも制作に携わりたいと考えるようになりました。
+            </p>
+                
+            <p>
+              医療職として培った正確さや細部へのこだわりを活かし、丁寧なコーディングを行うことを大切にしています。
+            </p>
+        </div>
+      </div>
+    </section>
+
+  <div class="contact-mail">
+    <h2>お問い合わせ</h2>
+    <ul>
+      <li>
+        <a href="mailto:kase.a.k1001@gmail.com">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://x.com/t4lhlyk" target="_blank">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+      </li>  
+    </ul>
+  
+  </div>
 </main>
 
 <footer>
   <small>(C) 2026 kana </small>
-  <address>
-    <a href="https://x.com/t4lhlyk" target="_blank"><img src="sns-1.png" alt="SNSアイコン" width="24" height="24"></a>
-    <a href="#" target="_blank"><img src="sns-2.png" alt="SNSアイコン" width="24" height="24"></a>
-  </address>
 </footer>
   
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
