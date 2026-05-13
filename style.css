@@ -260,7 +260,7 @@ small {
 
 
 @media (max-width: 768px) {
-  .practice-ol {
+  .practice-ul {
     grid-template-columns: 1fr;
   }
 }
