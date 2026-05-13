@@ -112,7 +112,7 @@ section p {
 }
 
 
-.practice-ol {
+.practice-ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
@@ -121,30 +121,35 @@ section p {
   list-style: none;
 }
 
-.practice-ol li {
+.practice-ul li {
   border: 1px solid #ddd;
   padding: 16px;
   border-radius: 12px;
   background: #fff;
 }
 
-.practice-ol img {
+.practice-ul img {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   display: block;
 }
 
-.practice-ol h3 {
+.practice-ul h3 {
   margin: 16px 0 8px;
   font-size: 18px;
 }
 
-.practice-ol p {
+.practice-ul p {
   margin-top: 10px;
   line-height: 1.7;
   text-align: center;
 }
+
+.practice-ul a:hover {
+  opacity: 0.6;
+}
+
 
 
 /* about */
@@ -247,13 +252,6 @@ small {
   color: #aaa;
 }
 
-address {
-  margin-top: 16px;
-}
-
-a:hover {
-  opacity: 0.7;
-}
 
 
 
